@@ -1,0 +1,43 @@
+%buttons {
+    display: block;
+    padding: 25px 30px;
+    width: 100%;
+    border: none;
+    border: 1px solid transparent;
+    font-family: $font-stack;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    @extend %buttons;
+}
+
+// Of mixin gebruiken?
+
+.btn-1 {
+    background-color: $green;
+    color: $white;
+    transition: .4s;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid $green;
+        color: $green;
+    }
+}
+
+.btn-2 {
+    background-color: transparent;
+    border: 1px solid $blue;
+    color: $blue;
+    transition: .4s;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid transparent;
+    }
+}
+
