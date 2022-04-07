@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Stageverslag: CrossmarX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+    <header class="h-portfolio">
+        <nav>
+            <a href="index.html"><img src="img/logo.svg" alt="CrossmarX Logo"></a>
+            <nav class="nav-menu">
+                <button class="nav-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+            <!-- Bron: https://codepen.io/xiao-nan-pols/pen/BawyVKz -->
+
+            <ul>
+                <li><a href="index.html"> <i class="fa-solid fa-play"></i>Inleiding</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-building"></i>Omschrijving bedrijf</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-user"></i>Profielschets</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-gear"></i>Functieomschrijving</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-briefcase"></i>Werkzaamheden</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-bullseye"></i>Leerdoelen</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-magnifying-glass"></i>Observatieopdracht</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-message"></i>Feedbackformulier</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-brain"></i>Reflectie</a></li>
+                <li><a href="extra.html"> <i class="fa-solid fa-bookmark"></i>Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="portfolio-session">
+            <h2 class="visually-hidden">Portfolio werk</h3>
+                <div class="hoofdstuk">
+                    <a href="index.html">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                        <h1>Color is Dark</h1>
+                        <span></span>
+                    </a>
+                </div>
+            <div class="container-flex">
+                <div>
+                    <h3>Het probleem</h3>
+                    <p>Gebruikers willen de banner of knop veranderen op hun website. Als zij de banner kleur veranderen kan het zo zijn dat de knop niet goed te zien is omdat de knop kleur geen goed contrast heeft met de banner kleur.</p>
+                   
+                    <h3>De oplossing</h3>
+                    <p>Feedback krijgen of de kleur die je nu wilt gebruiken licht of donker is zodat de gebruiker weet of het een goed contrast heeft met de knop of achtergrond.</p>
+                </div>
+                <div>
+                    <p>
+                        Hierbij ging ik opzoeken hoe je met JavaScript een code kon maken om aan gebruikers te laten zien met een bepaalde HEX waarde kleur of die kleur licht of donker is. 
+                        </br>
+                        Deze opdracht is samengedaan met Tim. Code 2 bronnen zijn samen gebruikt. <a href="onderzoek.html">(Zie Onderzoek documentatie, blz 1 t/m 2 voor meer informatie)</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session">
+            <div class="container-flex">
+                <div>
+                    <h3>Wat heb ik geleerd?</h3>
+                    <p>Dit was mijn eerste opdracht waarbij ik Javascript ging gebruiken. Dit is een andere Javascript dan dat ik heb geleerd op school. Dit was helemaal nieuw voor mij. Het was niet een moeilijke opdracht. Het ziet er misschien wel complex uit maar als je het eenmaal onder de knie hebt en begrijpt is het best logisch en is de code niet meer moeilijk. </p>
+               </div>
+                <div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session single-code single-img-no-m">
+            <div class="container-flex">
+                <h2>Gemaakt werk</h2>
+                <div>
+                    <script async src="//jsfiddle.net/xiaonanpols21/sec2d0fn/4/embed/js,html,result/dark/" class="jsfiddle"></script>
+                    <!-- Bron: https://jsfiddle.net/ -->
+                    <a href="img/work-colorisdarkv1.png" target="_blank"><img class="edit-thumbnail" src="img/work-colorisdarkv1.png" alt="Color Is Dark V1"></a>
+                    <p>Bekijk <a href="img/work-colorisdarkv1.png" target="_blank">foto</a> of <a href="http://jsfiddle.net/xiaonanpols21/sec2d0fn/4/">JSFiddle</a> voor regel verwijzingen</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>Regel:</li>
+                        <li>1. Kijken of JS-bestand is gekoppeld aan HTML-bestand.</li>
+                        <li>2. Hij maakt de functie aan</li>
+                        <li>6. Hij haalt de # weg als de gebruiker #888 type in de console bij regel 26. Gebruikers kunnen dus nu #888 typen of 888.</li>
+                        <li>9 t/m 11. Hex waarde kleur heeft meestal 6 cijfers. Maar nu met deze if statement kunnen gebruikers ook 3 cijfers code in typen als de cijfers allemaal hetzelfde zijn. </li>
+                        <li>13 t/m 15. Hier maakt hij variables aan voor R G en B met waar hij start. Dus: Hex waarde heeft 6 cijfers. Eerste 2 is de R middelste 2 is de G en laatste 2 is de B.</li>
+                        <li>17. Hier maakt hij de luminus aan. (Kleur code)</li>
+                        <li>19 t/m 23. Hier gaat hij kijken of de Y (De kleur in de console) kleiner is dan de helft van 255. Als de kleur lager is dan is het een lichte kleur en anders is het een donkere kleur. </li>
+                    </ul>
+
+                    <h3>Feedback</h3>
+                    <p>Regel 13 t/m 15: De vars zijn aangemaakt met 1 regel var. Zou beter zijn om voor al de 3 variabel het woord var te gebruiken ervoor.</p>
+                    
+                    <p>Bijvoorbeeld:</p>
+                    <a href="img/colorisdark-v1-feedback.png" target="_blank"><img class="img-single-work" src="img/colorisdark-v1-feedback.png" alt="Color Is Dark V1 Feedback"></a>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session">
+            <div class="container-flex">
+                <div>
+                    <h2>Verbetering</h2>
+                    <p>2 weken later moest er verandering komen in de code. Met de eerste code kan je zien of de kleur alleen licht of donker is. De bedoeling is beter dat de contrast code naar voren moet komen omdat contrast minimaal een 4.5:1 moet hebben om goede contrast te hebben tussen 2 kleuren. (Background – Tekst erop) Om dat te programmeren is het volgende gemaakt: </p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session single-code">
+            <div class="container-flex">
+                <div>
+                    <script async src="//jsfiddle.net/xiaonanpols21/o3xjfp58/2/embed/js,result/dark/"></script>
+                    <a href="img/work-colorisdarkv2.png" target="_blank"><img class="edit-thumbnail" src="img/work-colorisdarkv2.png" alt="Color Is Dark V1"></a>
+                    <p>Bekijk <a href="img/work-colorisdarkv2.png" target="_blank">foto</a> of <a href="http://jsfiddle.net/xiaonanpols21/sec2d0fn/4/">JSFiddle</a> voor regel verwijzingen</p>
+                    
+                    <h3>Bronnen</h3>
+                    <a href="https://www.w3.org/TR/WCAG20/#contrast-ratiodef">Ratio</a>
+                    <a href="https://www.w3.org/TR/WCAG20/#relativeluminancedef">Luminance</a>
+                </div>
+                <div>
+                    <ul>
+                        <li>Regel:</li>
+                        <li>26. De 1 kleuren worden aangemaakt, op regel 27 en 28 worden ze gekoppeld aan een luminance. </li>
+                        <li>31. De berekeningen van de ratio worden gemaakt. </li>
+                        <li>43 t/m 45. Door het te delen door 255 wordt de juiste berekening gemaakt voor de luminance. </li>
+                        <li>47. Hier wordt een ternary operator (if else statement) uitgelegd: Als R kleiner is dan 0.03… dan doe je R gedeeld door 12.92. Anders doe je math.pow… Deze manier van if else is alleen handig als je echt alleen maar 1 waarde meegeeft aan de if en else. Dit geld ook voor regel 48 en 49.</li>
+                        <li>52. Laatste berekening wordt gedaan om de juiste waarde te laten zien in de console.</li>
+                   </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2 class="visually-hidden">Navigeren footer</h2>
+            <img src="img/logo-wit.svg" alt="CrossmarX logo">
+            <h3>Navigeren</h3>
+            <ul>
+                <li><a href="index.html">Inleiding</a></li>
+                <li><a href="index.html">Omschrijving bedrijf</a></li>
+                <li><a href="index.html">Profielschets</a></li>
+                <li><a href="index.html">Functieomschrijving</a></li>
+                <li><a href="index.html">Werkzaamheden</a></li>
+                <li><a href="index.html">Leerdoelen</a></li>
+                <li><a href="index.html">Observatieopdracht</a></li>
+                <li><a href="index.html">Feedbackformulier</a></li>
+                <li><a href="index.html">Reflectie</a></li>
+                <li><a href="extra.html">Extra</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="visually-hidden">All rights reserved footer</h2>
+            <a href="https://www.crossmarx.nl/">crossmarx.nl</a>
+            <p>© 2022 XIAO</p>
+            <img src="img/xiao-logo.svg" alt="Xiao logo">
+        </section>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/c24c386355.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>

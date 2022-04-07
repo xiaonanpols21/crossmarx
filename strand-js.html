@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Stageverslag: CrossmarX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+    <header class="h-portfolio">
+        <nav>
+            <a href="index.html"><img src="img/logo.svg" alt="CrossmarX Logo"></a>
+            <nav class="nav-menu">
+                <button class="nav-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+            <!-- Bron: https://codepen.io/xiao-nan-pols/pen/BawyVKz -->
+
+            <ul>
+                <li><a href="index.html"> <i class="fa-solid fa-play"></i>Inleiding</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-building"></i>Omschrijving bedrijf</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-user"></i>Profielschets</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-gear"></i>Functieomschrijving</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-briefcase"></i>Werkzaamheden</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-bullseye"></i>Leerdoelen</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-magnifying-glass"></i>Observatieopdracht</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-message"></i>Feedbackformulier</a></li>
+                <li><a href="index.html"> <i class="fa-solid fa-brain"></i>Reflectie</a></li>
+                <li><a href="extra.html"> <i class="fa-solid fa-bookmark"></i>Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="portfolio-session">
+            <h2 class="visually-hidden">Bedrijf</h3>
+                <div class="hoofdstuk">
+                    <a href="index.html">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                        <h1>Strandeiland JS</h1>
+                        <span></span>
+                    </a>
+                </div>
+            <div class="container-flex">
+                <div>
+                    <h3>Het probleem</h3>
+                    <p>Het design die nu is gemaakt moet gaan werken. Hoe kunnen gebruiker (mensen van Gemeente Amsterdam) het systeem gaan gebruiken?</p>
+                    <h3>De oplossing</h3>
+                    <p>Een canvas getekende kaart met JavaScript. Met Json moet data worden gestuurd vanuit de database. </p>
+               </div>
+                <div>
+                    <p>Met het gesprek met Michel bij opdracht: Strandeiland Plattegrond vroeg hij: “Hoe zou dit werkend gemaakt kunnen worden?” Ik zei: “Ik heb echt geen idee”. Ik ging deze opdracht bespreken met Tim. Hij stelde voor om dit met Canvas te gaan doen. <a href="onderzoek.html">(Zie Onderzoek documentatie, blz 4 voor Canvas onderzoek).</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session">
+            <div class="container-flex">
+                <div>
+                    <h3>Wat heb ik geleerd?</h3>
+                    <p>Dit is de meest complexe opdracht die ik heb gemaakt. Hierbij heb ik net zoals bij ColorIsDark een hele nieuwe manier van programmeren met Javascript ontdekt. Met de documentatie van de code begrijp ik de code maar ik zou tot nu toe nog niet zelfstandig dit soort code kunnen schrijven. Het was een nieuwe ervaring die ik graag verder wil onderzoeken zodat het mij kan helpen voor het worden van een front-end developer. </p>
+               </div>
+                <div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session single-code single-img-no-m">
+            <div class="container-flex">
+                <h2>Gemaakt werk</h2>
+                <div>
+                    <a href="img/work-strandv1.png" target="_blank"><img class="img-code-work" src="img/work-strandv1.png" alt="Strandeiland JS v1"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li>Regel:</li>
+                        <li>2. Aanroepen van de canvas in de index.html</li>
+                        <li>7. De achtergrond img klaar maken</li>
+                        <li>8. Wanneer de functie gaat beginnen moet de content erin gaan werken.</li>
+                        <li>10 t/m 13. De width en height moet berekend worden van de canvas zodat hij responsive is. De ratio bepaald de berekening van hoe groot je scherm is zodat de tekening klopt. </li>
+                        <li>18. Parameters worden meegegeven aan de functie zodat hij weet welke plaatjes er moeten komen. De anoniemen functie met draw is voor de gebieden die op de canvas komen. De nummers er achter zijn de coördinaten. (Weten waar hij op de canvas moet komen te staan. De coördinaten worden opgenomen in Photoshop omdat de gebieden worden gemaakt met Photoshop. De Anchor is standaard center, maar die moest verandert worden naar rechts boven. </li>
+                        <li>22 t/m 29. Er wordt berekend dat de gebruiker klikt alleen op dat gebied en niet ergens anders. Canvas is 1 groot doek. Het is anders dan HTML CSS. </li>
+                        <li>35. De tekst wordt geplaatst.</li>
+                        <li>46 t/m 53. Wanneer de gebruiker klikt op het gebied, komt de description tevoorschijn.</li>
+                    </ul>
+                    <a href="portfolio/canvas-v1/index.html" class="btn btn-2 live-demo">Live demo</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session">
+            <div class="container-flex">
+                <div>
+                    <h2>Verbetering</h2>
+                    <p>Een week later gingen we kijken of er meer gebieden op de plattegrond konden worden geplaatst. Om dat te doen moest er een Json file komen. <a href="onderzoek.html">(Zie Onderzoek documentatie, blz 4 t/m blz 5 voor Json onderzoek).</a></p>
+               </div>
+                <div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session single-code">
+            <div class="container-flex">
+                <div>
+                    <a href="img/strand-js-v2.pdf" target="_blank"><img class="img-code-work" src="img/work-strandv2-1.png" alt="Strandeiland JS v2"></a>
+                </div>
+                <div>
+                    <a href="img/strand-js-v2.pdf" class="open-pdf">Open img voor de hele code</a>
+                    <ul>
+                        <li>Regel:</li>
+                        <li>6 t/m 8. Buttons worden aangemaakt om het jaar te kunnen selecteren in de HTML.</li>
+                        <li>30 t/m 106. Json file wordt weergegeven als string.  </li>
+                        <li>116. Json file wordt ge parsed. </li>
+                        <li>161 t/m 163.Dit wordt gedaan met een filter functie.  </li>
+                        <li>176 t/m 177. Om de goede coördinaten de hebben worden de gegevens opgehaald van de laatst getekende canvas omdat de data steeds verandert als je op een knop drukt. Dit wordt gedaan met “this”.</li>
+                        <li>190 t/m 208. De gebruiker kan kiezen of hij de gebieden wilt zien op een zand foto of op een getekende foto. Dat kan de gebruiker aanklikken met een checkbox. Als de gebruiker de checkbox heeft aangeklikt wordt meteen de achtergrond verandert.</li>
+                   </ul>
+                   <a href="portfolio/canvas-v2/index.html" class="btn btn-2 live-demo">Live demo</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-session">
+            <div class="container-flex">
+                <div>
+                    <h2>Verbetering</h2>
+                    <p>Deze code is verbeterd met complexere code door Tim. Zo is er een outline om de plaatjes heen gedaan wanneer je er overheen hovert. </p>
+               </div>
+                <div>
+                    <iframe src="https://www.youtube.com/embed/vlzqJVmlYIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2 class="visually-hidden">Navigeren footer</h2>
+            <img src="img/logo-wit.svg" alt="CrossmarX logo">
+            <h3>Navigeren</h3>
+            <ul>
+                <li><a href="index.html">Inleiding</a></li>
+                <li><a href="index.html">Omschrijving bedrijf</a></li>
+                <li><a href="index.html">Profielschets</a></li>
+                <li><a href="index.html">Functieomschrijving</a></li>
+                <li><a href="index.html">Werkzaamheden</a></li>
+                <li><a href="index.html">Leerdoelen</a></li>
+                <li><a href="index.html">Observatieopdracht</a></li>
+                <li><a href="index.html">Feedbackformulier</a></li>
+                <li><a href="index.html">Reflectie</a></li>
+                <li><a href="extra.html">Extra</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="visually-hidden">All rights reserved footer</h2>
+            <a href="https://www.crossmarx.nl/">crossmarx.nl</a>
+            <p>© 2022 XIAO</p>
+            <img src="img/xiao-logo.svg" alt="Xiao logo">
+        </section>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/c24c386355.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>
