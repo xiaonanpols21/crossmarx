@@ -1,0 +1,60 @@
+footer {
+    padding: 20px;
+    margin-top: 50px;
+
+    h3 {
+        @include font18;
+        color: $white
+    }
+
+    a {
+        @include font16;
+        color: $white;
+    }
+
+    p {
+        @include font16;
+    }
+
+    .logo {
+        height: 25px;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: $white;
+
+        li {
+            list-style: none;
+        }
+
+        .support {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+
+    div {
+        margin-top: 50px;
+
+        ul {
+            &:last-of-type {
+                gap: 5px;
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 50px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: $green;
+        @include font14;
+        text-align: center;
+        color: $white;
+    }
+    
+}

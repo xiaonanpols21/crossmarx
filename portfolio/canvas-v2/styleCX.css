@@ -1,0 +1,34 @@
+canvas {
+    width: 100%;
+}
+#go_strand-heden,
+#go_strand-verleden {
+	display: none;
+}
+#go_strand-heden + label ,
+#go_strand-verleden + label {
+	width: 38px;
+	height: 38px;
+	border: 1px solid blue;
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+#go_strand-heden + label {
+	background-image: url("./img/btn-heden.jpg");
+	background-size: contain;
+}
+
+#go_strand-verleden + label {
+	background-image: url("./img/btn-verleden.jpg");
+	background-size: contain;
+}
+ 
+ 
+#go_strand-heden:checked + label {
+	border-color: red;
+}
+#go_strand-verleden:checked + label {
+	border-color: red;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="193.5" height="250.01" viewBox="0 0 193.5 250.01">
+  <g id="Group_60" data-name="Group 60" transform="translate(-2780.5 -2150)">
+    <rect id="Rectangle_20" data-name="Rectangle 20" width="193" height="250" rx="30" transform="translate(2781 2150)" fill="#fcfdfd"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M30,91.417a30,30,0,0,1-30-30V1.95A34.265,34.265,0,0,1,11.713,0C47.905,0,58.077,39.371,93.374,57.263c11.057,5.606,20.229,20.057,21.847,34.153Z" transform="translate(2781 2308.094)" fill="#57b46b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" opacity="0.5"/>
+    <path id="Intersection_3" data-name="Intersection 3" d="M52.718,85.31c-16.686-.022-23.987-13.526-30.411-34.942C15.631,28.116.186,14.939,0,0H56A30,30,0,0,1,86,30V76.551A197.028,197.028,0,0,1,62.614,84a41.627,41.627,0,0,1-9.821,1.312Z" transform="translate(2887.581 2150)" fill="#2c6eb6" opacity="0.5"/>
+  </g>
+</svg>

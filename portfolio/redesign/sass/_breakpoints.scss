@@ -1,0 +1,178 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+    .desk-nav {
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    // .mobiel-start {
+    //     display: none;
+    // }
+
+    .desk-nav {
+        margin: -30px 0px 0px -30px;
+    }
+
+    .btn-1 {
+        display: flex;
+        margin: 40px auto auto auto;
+        width: fit-content;
+    }
+
+    main {
+        padding: 30px;
+
+        .mobile-nav {
+            display: none;
+        }
+
+        & > section:last-of-type {
+            position: relative;
+            top: 0;
+            left: 250px;
+            width: calc(100% - 250px);
+        }
+    }
+
+    #features {
+        p {
+            width: 275px;
+        }
+    }
+
+    footer {
+        position: relative;
+        top: 0;
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    main {
+        & > section:last-of-type {
+            overflow: hidden;
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: -150px;
+                top: -150px;
+                background-image: url(../img/koraal.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 491px;
+                height: 585px;
+            }
+        }
+    }
+
+    #features {
+        width: 50%;
+    }
+
+    .developers-slider {
+        overflow: inherit;
+        justify-content: center;
+
+        div {
+            padding: 25px;
+
+            h3 {
+                width: 193px;
+            }
+        }
+    }
+
+    .partners-clmn {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        section {
+            width: calc(50% - 20px);
+            padding: 30px;
+        }
+    }
+
+    .projects-clmn {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        section:last-of-type {
+            grid-row-start: 1;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            background-size: auto;
+
+            div {
+                height: 300px;
+                padding: 30px;
+            }
+        }
+
+        div {
+            height: 300px;
+
+            h3 {
+                bottom: 30px;
+            }
+        }
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        & > ul:first-of-type {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        & > div {
+            grid-column-start: 3;
+            margin-top: 0px;
+        }
+
+        .copyright {
+            grid-row: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1350px) {
+    #features {
+        p {
+            &::after {
+                content: "";
+                position: absolute;
+                transform: translate(120px, -50px);
+                background-image: url(../img/feature.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 190px;
+                height: 97px;
+            }
+        }
+    }
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    
+}

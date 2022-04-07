@@ -1,0 +1,73 @@
+@import "./variables";
+@import "./mobile-start";
+@import "./nav";
+@import "./main-content";
+@import "./footer";
+@import "./breakpoints";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* Bron: https://css-tricks.com/inclusively-hidden/ */
+}
+
+.mobiel-start {
+    max-width: 650px;
+    margin: auto;
+}
+
+main {
+    background-color: $black;
+}
+
+// JS
+.none {
+    display: none;
+}
+
+.mobiel-start ul li.dot-active {
+    width: 30px;
+    opacity: 1;
+}
+
+.mobiel-start .start2ImgStyle {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.desk-nav .navSelect {
+    @include navDesk;
+    border-radius: 50px;
+    color: $white;
+}
+
+.desk-nav section:last-of-type .none {
+    display: none;
+}
+
+.desk-nav section:last-of-type ul .langSelected {
+    @include langSelec;
+}

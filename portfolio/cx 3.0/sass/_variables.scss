@@ -1,0 +1,75 @@
+$grey: #d5d5d5;
+$white: #fbfcfc;
+$blue: #005ca8;
+$green: #55a656;
+$black: #272727;
+
+@mixin font18 {
+    font-size: 18px;
+    line-height: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@mixin font16 {
+    font-size: 16px;
+    line-height: 28px;
+
+    @media (min-width: 768px) {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@mixin font14 {
+    font-size: 14px;
+    line-height: 26px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@mixin fontH2 {
+    font-size: 34px;
+    @media (min-width: 768px) {
+        font-size: 42px;
+    }
+}
+
+@mixin trans4 {
+    transition: .4s;
+}
+
+@mixin btn {
+    border-radius: 50px;
+    border: 1px solid transparent;
+    @include font18;
+    font-weight: bold;
+    color: $white;
+    @include trans4;
+    cursor: pointer;
+}
+
+@mixin navI {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+@mixin navDesk {
+    background-color: $blue;
+    color: $white;
+}
+
+@mixin languageImg {
+    height: 25px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+@mixin langSelec {
+    background-color: lighten($black, 10%);
+}

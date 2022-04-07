@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap with own Sass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+    <section class="mobiel-start">
+        <h2 class="visually-hidden">Startscherm mobiel</h2>
+        <img class="logo" src="img/logo.svg" alt="Logo">
+        <div>
+            <div id="startImg">
+                <img class="shapes" src="img/start-bg-1.svg" alt="Shape">
+                <img class="covers" src="img/cover-1.png" alt="Raket">
+            </div>
+            <p id="startText">Uncomplicated and straightforward. Small steps to begin with, leading up to a grand finale</p>
+        </div>
+        <div>
+            <ul>
+                <li id="dot-1"></li>
+                <li id="dot-2"></li>
+                <li id="dot-3"></li>
+            </ul>
+            <button class="btn-1" id="start-btn-1">Next</button>
+            <button class="btn-1" id="start-btn-2">Next</button>
+            <button class="btn-1" id="start-btn-3">Explore</button>
+        </div>
+    </section>
+    <main>
+        <section>
+            <h2 class="visually-hidden">Navigatie</h2>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#features"><i class="fa-solid fa-gears"></i> Features</a></li>
+                    <li><a href="#developers"><i class="fa-solid fa-code"></i> Developers</a></li>
+                    <li><a href="#partners"><i class="fa-solid fa-handshake-angle"></i> Partners</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-star"></i> Webconference</a></li>
+                </ul>
+            </nav>
+            <nav class="desk-nav">
+                <img class="logo" src="img/logo.svg" alt="Logo">
+                <section>
+                    <h2 class="visually-hidden">Profiel van gebruiker</h2>
+                    <img class="user-img" src="img/user.jpg" alt="Xiao Nan Pols">
+                    <p>Xiao Nan Pols</p>
+                </section>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#features"><i class="fa-solid fa-gears"></i> Features</a></li>
+                    <li><a href="#developers"><i class="fa-solid fa-code"></i> Developers</a></li>
+                    <li><a href="#partners"><i class="fa-solid fa-handshake-angle"></i> Partners</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-star"></i> Webconference</a></li>
+                </ul>
+                <section>
+                    <h2 class="visually-hidden">Dropdown</h2>
+                    <button id="langBtn"><img src="img/lang-eng.svg" alt="Engels">English<i class="fa-solid fa-angle-down"></i></button>
+                    <ul id="dropDown">
+                        <li><img src="img/lang-eng.svg" alt="Engels">English</li>
+                        <li><img src="img/lang-nl.svg" alt="Nederlands">Deutch</li>
+                    </ul>
+                </section>
+            </nav>
+        </section>
+        <section>
+            <h2 class="visually-hidden">Main content</h2>
+            <section id="features">
+                <h1>Features</h1>
+                <p>We offer you the best as we can. No one can compare us.</p>
+                <a href="index.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </section>
+            <section id="developers">
+                <h2>Developers</h2>
+                <p class="titel-note">Some personal stories by other developers</p>
+                <div class="developers-slider">
+                    <div>
+                        <h3>Matthijs Lambooy</h3>
+                        <p>Technology director</p>
+                        <img src="img/dev-matthijs.png" alt="Matthijs">
+                    </div>
+                    <div>
+                        <h3>Rick Vetlman</h3>
+                        <p>Director</p>
+                        <img src="img/dev-rick.png" alt="Rick">
+                    </div>
+                    <div>
+                        <h3>Tim Houtenbos</h3>
+                        <p>Front-end developer</p>
+                        <img src="img/dev-tim.png" alt="Tim">
+                    </div>
+                </div>
+                <button class="btn-1">More develoeprs</button>
+            </section>
+            <section id="partners">
+                <h2>Projects</h2>
+                <p class="titel-note">Get inspired</p>
+                <div class="partners-clmn">
+                    <section>
+                        <img src="img/partner-leveo.png" alt="Careless">
+                        <div>
+                            <h3>Careless</h3>
+                            <p>Met het CrossmarX Application platform is for our generation...</p>
+                       </div>
+                    </section>
+                    <section>
+                        <img src="img/partner-health-e.png" alt="Health[e]Foundation">
+                        <div>
+                            <h3>Health[e]Foundation</h3>
+                            <p>Met het CrossmarX Application platform is for our generation...</p>
+                       </div>
+                    </section>
+                    <section>
+                        <img src="img/partner-segenn.png" alt="Workflow">
+                        <div>
+                            <h3>Workflow</h3>
+                            <p>Met het CrossmarX Application platform is for our generation...</p>
+                       </div>
+                    </section>
+                    <section>
+                        <img src="img/partner-health.jpg" alt="HC Health">
+                        <div>
+                            <h3>HC Health</h3>
+                            <p>Met het CrossmarX Application platform is for our generation...</p>
+                       </div>
+                    </section>
+                </div>
+                <button class="btn-1">More projects</button>
+            </section>
+            <section id="projects">
+                <h2>Partners</h2>
+                <p class="titel-note">Stories from our partners</p>
+                <div class="projects-clmn">
+                    <section>
+                        <div>
+                            <h3>Resource Opmeer Bv</h3>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h3>Provincie Noord Holland</h3>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h3>Smart Connections</h3>
+                        </div>
+                    </section>
+                </div>
+                <button class="btn-1">More partners</button>
+            </section>
+        </section>
+        <footer>
+            <h2  class="visually-hidden">Navigeren</h2>
+            <img class="logo" src="img/logo-wit.svg" alt="Logo">
+            <ul>
+                <li>
+                    <h3>Bezoekadres</h3>
+                    <a href="#">Oudezijds Achterburgwal 141 1012 DG Amsterdam</a>
+                </li>
+                <li>
+                    <h3>Postadres</h3>
+                    <a href="#">Postbus 11172 1001 GD Amsterdam</a>
+                </li>
+                <li>
+                    <h3>Telefoon</h3>
+                    <a href="#">020-4208151</a>
+                </li>
+                <li>
+                    <h3>Kvk</h3>
+                    <a href="#">33266968</a>
+                </li>
+                <li>
+                    <h3>Email</h3>
+                    <a href="#">info@crossmarx.com</a>
+                    <p>voor algemene zaken, projecten, en het aanvragen van een account</p>
+                    <a class="support" href="#">support@crossmarx.com</a>
+                    <p>voor ondersteuning en technische vragen</p>
+                </li>
+            </ul>
+            <div>
+                <h3>Navigeren</h3>
+                <ul>
+                    <li><a href="#">Winnaar RAD RACE</a></li>
+                    <li><a href="#">Positionering</a></li>
+                    <li><a href="#">Voor wie?</a></li>
+                    <li><a href="#">Meer uitleg</a></li>
+                    <li><a href="#">Partner info</a></li>
+                    <li><a href="#">Meer uitleg</a></li>
+                    <li><a href="#">Kosten</a></li>
+                    <li><a href="#">Privacy disclaimer CrossmarX Studio</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Algemene voorwaarden</a></li>
+                </ul>
+            </div>
+            <p class="copyright">© Copyright 2022</p>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/c24c386355.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>
